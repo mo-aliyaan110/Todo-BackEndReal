@@ -1,0 +1,25 @@
+{
+  "name": "to-do-backend",
+  "version": "1.0.0",
+  "description": "This is a simple To-Do list backend with CRUD operations included",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "node.js",
+    "mongoDB",
+    "React"
+  ],
+  "author": "Mohammed Aliyaan",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^16.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  }
+}
